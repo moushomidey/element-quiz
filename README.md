@@ -1,10 +1,10 @@
 # element-quiz
 
-A terminal-based chemistry quiz written in Python — one of my first coding
+A terminal based chemistry quiz written in Python  one of my first coding
 projects as I move from science teaching into software engineering.
 
 The quiz asks 5 random element symbol questions, checks answers (capital
-letters matter — CO is carbon monoxide, Co is cobalt!), keeps score, and
+letters matter  CO is carbon monoxide, Co is cobalt!), keeps score, and
 gives feedback at the end.
 
 ## How to run
@@ -13,7 +13,7 @@ gives feedback at the end.
 python element_quiz.py
 ```
 
-No installation needed — it only uses Python's built-in `random` module.
+No installation needed  it only uses Python's built-in `random` module.
 
 ## What it uses
 
