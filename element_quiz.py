@@ -21,7 +21,6 @@ ELEMENTS = {
     "Chlorine": "Cl",
     "Potassium": "K",
     "Calcium": "Ca",
-    "Iron": "Fe",
 }
 
 
@@ -60,7 +59,7 @@ def main():
     print("=== Element Symbol Quiz ===")
     print("Capital letters matter! (e.g. He, not HE or he)\n")
 
-    total = 10
+    total = 5
     score = run_quiz(total)
 
     print(f"You scored {score} out of {total}.")
