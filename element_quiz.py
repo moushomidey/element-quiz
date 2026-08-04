@@ -43,7 +43,7 @@ def ask_question(element, correct_symbol):
 
 def run_quiz(number_of_questions):
     """Run the quiz and return the final score."""
-    score = 100000
+    score = 0
 
     # Pick random elements from the dictionary, no repeats.
     element_names = random.sample(list(ELEMENTS.keys()), number_of_questions)
@@ -60,7 +60,7 @@ def main():
     print("=== Element Symbol Quiz ===")
     print("Capital letters matter! (e.g. He, not HE or he)\n")
 
-    total = 5
+    total = 10
     score = run_quiz(total)
 
     print(f"You scored {score} out of {total}.")
