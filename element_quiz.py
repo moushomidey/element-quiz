@@ -21,6 +21,7 @@ ELEMENTS = {
     "Chlorine": "Cl",
     "Potassium": "K",
     "Calcium": "Ca",
+    "Iron": "Fe",
 }
 
 
