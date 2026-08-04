@@ -37,7 +37,7 @@ def ask_question(element, correct_symbol):
         return True
     else:
         print(f"Not quite - the answer is {correct_symbol}.\n")
-        return true
+        return false 
     
 
 
