@@ -43,7 +43,7 @@ def ask_question(element, correct_symbol):
 
 def run_quiz(number_of_questions):
     """Run the quiz and return the final score."""
-    score = 0
+    score = 100000
 
     # Pick random elements from the dictionary, no repeats.
     element_names = random.sample(list(ELEMENTS.keys()), number_of_questions)
